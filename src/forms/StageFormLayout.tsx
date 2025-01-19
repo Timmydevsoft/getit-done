@@ -3,16 +3,6 @@ import { NavLink, Outlet } from "react-router-dom";
 import { useForm} from "../contexts/FormContext";
 const StageFormLayout: React.FC = () => {
   
-  let personalIsfiled;
-  let EduIsfiled;
-
-  const formState = useForm()
-  if(formState?.education  && formState?.personalInfo){
-    EduIsfiled = Object.values(formState?.education).every((item)=> item !=="" && false)
-     personalIsfiled = Object.values(formState?.personalInfo).every((item)=> item !=="" && false)
-  }
-
-  
   
   return (
     <div className="flex flex-col items-center px-[5%] md:px-[10%] py-10 w-full h-screen bg-white">
