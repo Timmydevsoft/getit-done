@@ -1,4 +1,4 @@
-## Getit Done at liitle price
+## Getit Done at litle price
 ### App Description
 Welcome to our Freelancing App, a platform designed to streamline the hiring process for clients seeking quality work at affordable rates. Connect with talented freelancers who can complete your projects quickly and efficiently, ensuring you get the best results without breaking the bank.
 
