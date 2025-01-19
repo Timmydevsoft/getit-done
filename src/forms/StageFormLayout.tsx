@@ -2,8 +2,7 @@ import React from "react";
 import { NavLink, Outlet } from "react-router-dom";
 import { useForm} from "../contexts/FormContext";
 const StageFormLayout: React.FC = () => {
-  
-  
+  const formState = useForm()
   return (
     <div className="flex flex-col items-center px-[5%] md:px-[10%] py-10 w-full h-screen bg-white">
       <div className="w-full md:w-auto flex items-center space-x-3 lg:space-x-6 px-4" >
